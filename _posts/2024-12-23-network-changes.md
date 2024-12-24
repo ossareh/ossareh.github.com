@@ -85,7 +85,7 @@ viable a solution MoCa adapters are for homes. If it wasn't for wanting ceiling 
 wire clutter I'd have just upgraded the WiFi APs and been cool with it. One thing I did notice is
 that latency spiked when the MoCa was in the loop. For when wired over pure ethernet to our GFiber
 router ping times were consistently around 8ms to 1.1.1.1 and 13ms when a MoCa was in the loop. With
-the new network git I see pings around 8-11ms.
+the new network kit I see pings around 8-11ms.
 
 I chose not to power off the various Deco APs during the tests because most of our home connects to
 them, so I didn't want devices switching between routers to screw with the data. Honestly the data
@@ -99,4 +99,4 @@ $ brew install speedtest-cli
 $ speedtest-cli --secure --single --json --bytes --server 23449
 ```
 
-Server `23449` doesn't appear to exist anymore; it was repoted at being Texas A&M.
+Server `23449` doesn't appear to exist anymore; it was reported at being Texas A&M.
